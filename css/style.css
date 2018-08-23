@@ -1,0 +1,368 @@
+* {
+    margin: 0px;
+    padding: 0px;
+     font-family: 'Alegreya', serif;
+   
+    
+}
+
+html,
+body {
+    font-family: 'Alegreya', serif;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #acb16f !important;
+    min-width: 340px;
+     max-width: 1366px;
+}
+
+.navbar{
+    background: #e2e7b1 !important;
+    border: none !important;
+}
+
+.navbar ul{
+    float: right;
+}
+
+
+#baner {
+    width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    clear: both;
+   
+}
+
+.jumbotron{
+    background: url("../img/flower4.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    
+}
+
+
+
+.col-md-8{
+      padding: 4% 5%;
+    background: rgba(255,255,255, 0.4);
+    text-align: center;
+    
+}
+
+.tytul{
+	font-size: 40px;
+    font-family: 'Alegreya', serif !important;
+    color: #7d7915 !important;
+    font-weight: 900;
+    border-bottom: solid 3px;
+}
+
+
+.podtytul{
+	font-size: 18px;
+     font-family: 'Alegreya', serif;
+    color: #627533 !important;
+    font-weight: 800;
+}
+
+
+@media(min-width:767px){
+	.baner{
+		height: 100% !important;
+		padding: 0;
+	}
+
+	.podtytul{
+		font-size: 25px;
+	}
+
+	.tytul{
+		font-size: 60px;
+	}
+}
+#onas{
+     width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    
+    
+}
+#onas span{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#onas h2{
+    font-size: 2em;
+    
+    padding: 70px 90px 30px 90px;
+    border-bottom: solid 3px;
+    
+    color: #eaefcf;
+    
+}
+#onas p{
+    line-height: 1.8em;
+    font-size: 1.5em;
+    padding: 0 80px;
+    color: #222;
+    
+}
+#onas p:first-of-type{
+    padding-top: 40px;
+}
+#onas p:last-of-type{
+    padding-bottom: 70px;
+    border-bottom: solid 3px;
+    border-color: #eaefcf;
+}
+#cennik{
+     background: url("../img/violet-flowers.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+   text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.cennik-button{
+    padding: 20% 0 0 0;
+    color: #eaefcf;
+    font-size: 4em;
+    font-weight: 900;
+}
+
+#pracownicy {
+    width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+   
+}
+
+#pracownicy img {
+    width: 15%;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+@media screen and (max-width: 599px) {
+    #pracownicy img {
+    width: 20%;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+}
+
+
+#pracownicy img:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+#pracownicy span{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#pracownicy h2 {
+    font-size: 2em;
+    padding-bottom: 30px;
+    padding-top: 70px;
+    border-bottom: solid 3px;
+    
+    color: #eaefcf;
+}
+
+.opis1{
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    padding-top: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.opis{
+    text-align: center;
+    line-height: 1.5em;
+    padding-top: 5%;
+    font-size: 1.5em;
+}
+#oferta{
+    min-height: 100%;
+    margin: 0 auto;
+    padding-top: 60px;
+    overflow: hidden;
+}
+#oferta .container{
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+#oferta .row{
+    width: 100%;
+    margin: 0  !important;
+    padding: 0 !important;
+
+}
+#oferta .row.equal {
+    display: flex;
+    flex-wrap: wrap;
+  }
+#oferta .col-md-4{
+    padding: 0 !important;
+     background: #859d51;
+    border: solid 10px;
+    border-color: #eaefcf;
+}
+#oferta .col-md-6{
+    background: #859d51;
+    padding: 5px 20px 30px 20px;
+    border: solid 10px;
+    border-color: #eaefcf;
+
+    
+}
+
+#oferta img{
+    width: 100%;
+    height: 100%;
+     margin: 0 !important;
+    padding: 0 !important;
+    
+}
+#oferta h2{
+    color: #eaefcf;
+    font-size: 2em;
+}
+#oferta span{
+    color: #eaefcf;
+    font-size: 2em;
+    padding-top: 20px;
+    
+}
+#oferta p{
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+#galeria{
+    min-height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+#galeria h2{
+   font-size: 2em;
+    padding-bottom: 20px;
+    padding-top: 60px;
+    border-bottom: solid 3px;
+    
+    color: #eaefcf;
+}
+#galeria span{
+    padding-left: 20px;
+    padding-right: 20px;
+
+    
+}
+#galeria .container{
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+#galeria .row{
+    width: 100%;
+    margin: 0  !important;
+    padding: 0 !important;
+
+}
+#galeria .row.equal {
+    display: flex;
+    flex-wrap: wrap;
+  }
+#galeria img{
+    width: 100%;
+    height: 100%;
+     margin: 0 !important;
+    padding: 0 !important;
+    
+}
+#galeria .col-md-3{
+    padding: 0 !important;
+    
+}
+#galeria .col-md-4{
+    padding: 0 !important;
+    
+}
+#kontakt{
+    width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+#kontakt h2{
+   font-size: 2em;
+    padding-bottom: 20px;
+    border-bottom: solid 3px;
+    padding-top: 60px;
+    color: #eaefcf;
+}
+#kontakt span{
+    padding-left: 20px;
+    padding-right: 20px;
+
+    
+}
+#kontakt p{
+    line-height: 1.8em;
+    font-size: 1.5em;
+    padding: 0 80px;
+    color: #222;
+    
+}
+#kontakt .col-md-6{
+    padding-bottom: 40px;
+}
+
+.kropki{
+    border-right: none;
+}
+@media(min-width:992px){
+.kropki{
+    border-right: dotted 3px;
+}
+}
+#adres{
+   padding: 40px 0 ;
+}
+#mapa{
+    width: 100%;
+    max-height: 250px;
+}
+iframe{
+    width: 100%;
+    height: 250px;
+    border: none;
+}
+
+footer{
+    height: 55px;
+    padding: 15px 0;
+    text-align: center;
+    background: #e2e7b1;
+}
+    
